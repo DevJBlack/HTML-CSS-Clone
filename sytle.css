@@ -1,0 +1,165 @@
+
+
+html {
+  background-color: rgb(225, 244, 250);
+}
+
+body {
+  height: 5000px;
+  margin: 0;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.upper-box .Bold-Text,
+.upper-box  {
+  margin: 0 1em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.Bold-Text {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.little-text {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 150px;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin: 2em 1em;
+  width: 85vw;
+}
+
+
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+  margin: 50px;
+  font-weight: bold
+}
+
+.blue-but {
+  height: 40px;
+  width: 135px;
+  background-color:rgb(53, 53, 230);
+  border-radius: 25px;
+  color: white;
+  margin: 2.7em 10px;
+  border: none;
+}
+
+.black-but {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  margin: 1.4em 10px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigation {
+  margin: 10px;
+}
+
+.word-box {
+  flex-direction: column;
+  height: 500px;
+  width: 550px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 400px;
+  margin-left: 300px;
+}
+
+.small-box {
+  width: 500px;
+}
+
+.big-bolded {
+  font-size: 75px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.under-big {
+  font-size: 17px;
+  margin: 10px;
+}
+
+.view-but {
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  width: 155px;
+  background-color:rgb(53, 53, 230);
+  border-radius: 25px;
+  border: none;
+  margin: 20px 10px;
+}
+
+.owl-pic {
+  height: 500px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.owl {
+  height: 200px;
+  widows: 200px;
+  background-attachment: transparent;
+
+}
+
+.words-box2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 600px;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.words-box3 {
+  
+  width: 500px;
+}
+
+.owl-words {
+  font-weight: bold;
+  font-size: 65px;
+}
+
+.owl-words2 {
+  font-size: 17px;
+}
