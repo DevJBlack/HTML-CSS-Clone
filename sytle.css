@@ -151,15 +151,43 @@ nav ul li {
 }
 
 .words-box3 {
+  display:flex;
+  
   
   width: 500px;
+  margin-top: 15px;
+  
+  margin-right: 90px;
 }
 
 .owl-words {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 65px;
 }
 
 .owl-words2 {
   font-size: 17px;
+  font-weight: 500;
+  justify-content: flex-start;
+}
+
+.sponsers {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  height: 100px;
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+}
+
+.sponsers ul li {
+  color: rgba(0,0,0,0.5);
+  margin: 0 100px;
+  list-style: none;
+
 }
